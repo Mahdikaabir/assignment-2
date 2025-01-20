@@ -121,6 +121,11 @@ main > section{
 }
 
 /* Curriculum section styles */
+.Curriculum{
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .card-container{
     gap: 28px;
     border-radius: 18px;
@@ -181,6 +186,9 @@ main > section{
     }
     .banner{
         flex-direction: column-reverse;
+    }
+    .card-container{
+        flex-direction: column;
     }
     .banner-content{
         text-align: center;
