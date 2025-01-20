@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+.bg-color{
+    background-color: rgba(255, 255, 255, 1);
+}
+.display-flex{
+    display: flex;
+}
+.text-primary{
+    color: #FEA301;
+}
+.btn{
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+}
+.btn-secondary{
+    background-color: black;
+    padding: 10px 47px;
+    font-weight: 700;
+
+}
+/* header styles */
+/* navbar styles  */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+}
+.school{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #111111;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.navbar, .banner{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.text-2{
+    color: #01ACFD;
+}
+.text-3{
+    color: #05D4DF;
+}
+.text-4{
+    color: #5D58EF;
+}
+.logos{
+    align-items: center;
+}
+.logo{
+    margin-right: 15px;
+    width: 62px;
+    height: 62px;
+}
+.btn-primary{
+    background-color: #FEA301;
+    padding: 10px 60px;
+    font-weight: 600;
+}
+
+/* banner styles */
+.banner{
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 50px;
+}
+.banner-content{
+    max-width: 640px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+}
+.text-5{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+.banner-image{
+    width: 100%;
+}
+.divider{
+    border: none;
+    border-top: 1px solid rgba(254, 163, 1, 0.71);
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .hide-mbl{
+        display: none;
+    }
+    .logo{
+        width: 46px;
+        height: 46px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+        margin-top: 5px;
+    }
+    .banner-description{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    .btn-primary{
+        padding: 6px 24px;
+        font-weight: 700;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 577px) {
+    .hide-bars{
+        display: none;
+    }
+    .divider{
+        display: none;
+    }
+}
