@@ -28,7 +28,6 @@
     background-color: black;
     padding: 10px 47px;
     font-weight: 700;
-
 }
 main{
     max-width: 1160px;
@@ -121,7 +120,7 @@ main > section{
 }
 
 /* Curriculum section styles */
-.Curriculum{
+.Curriculum, .our-stories{
     background-image: url('../assets/bg.png');
     background-repeat: no-repeat;
     background-position: top right;
@@ -200,11 +199,7 @@ main > section{
 .fun-toddler{
     padding: 38px;
 }
-.img-story-1{
-    
-}
 #date{
-    display: inline-block;
     position: relative;
     font-weight: 500;
     font-size: 0.9rem;
@@ -226,6 +221,12 @@ main > section{
 .bg-3{
     background-color: #5D58F0;
     padding: 10px 19px;
+}
+
+.btn-view-all{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -272,6 +273,7 @@ main > section{
         gap: 8px;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     .card-titles{
         font-size: 1rem;
@@ -281,6 +283,11 @@ main > section{
     }
     .read-more-text{
         font-size: 0.6rem;
+    }
+    .stories{
+        gap: 11px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 @media screen and (min-width: 577px) {
