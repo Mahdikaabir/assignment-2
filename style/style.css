@@ -199,6 +199,16 @@ main > section{
 .fun-toddler{
     padding: 38px;
 }
+.img-story-1{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.img-story{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
 #date{
     position: relative;
     font-weight: 500;
