@@ -176,6 +176,57 @@ main > section{
 .card-Middle{
     background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
 }
+
+/* stories styles */
+.stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+#stories-fun{
+    grid-row: span 2;
+}
+.story{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.story-titles{
+    font-weight: 700;
+    font-size: 1rem;
+    width: 214px;
+    padding-left: 38px;
+}
+.fun-toddler{
+    padding: 38px;
+}
+.img-story-1{
+    
+}
+#date{
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: white;
+    border: none;
+    border-radius: 48px;
+    margin-left: 38px;
+    top: -25px;
+}
+
+.bg-1{
+    background-color: #01ACFD;
+    padding: 15px 19px;
+}
+.bg-2{
+    background-color: #95B226;
+    padding: 10px 19px;
+}
+.bg-3{
+    background-color: #5D58F0;
+    padding: 10px 19px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .hide-mbl{
