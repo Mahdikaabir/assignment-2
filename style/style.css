@@ -124,7 +124,7 @@ main > section{
 .Curriculum{
     background-image: url('../assets/bg.png');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top right;
 }
 .card-container{
     gap: 28px;
@@ -136,6 +136,7 @@ main > section{
     border-radius: 18px;
     margin-bottom: 32px;
     box-shadow: 0px 0px 28.3px .94px rgba(0, 0, 0, 0.05);
+    width: 286px;
 }
 .btn-icons{
     gap: 10px;
@@ -207,6 +208,28 @@ main > section{
     }
     .btn{
         font-size: 1rem;
+    }
+    .section-titles{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .card{
+        margin-bottom: 12px;
+        width: 200px;
+    }
+    .card-container{
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-titles{
+        font-size: 1rem;
+    }
+    .card-descriptions{
+        font-size: 0.6rem;
+    }
+    .read-more-text{
+        font-size: 0.6rem;
     }
 }
 @media screen and (min-width: 577px) {
