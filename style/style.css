@@ -260,12 +260,11 @@ main > section{
 }
 .footer-section{
     display: flex;
-    width: 1070px;
+    width: 0 auto;
     align-items: center;
-    margin-left: 230px;
     justify-content: center;
-    justify-content: space-between;
-    padding: 123px 228px 174px 140px;
+    justify-content: space-evenly;
+    padding: 50px 20px;
 }
 .footer-logo{
     width: 400px;
@@ -297,6 +296,7 @@ main > section{
     width: 40px;
     height: 40px;
     display: flex;
+    border-radius: 4px;
 }
 .gap{
     gap: 10px;
@@ -311,6 +311,14 @@ main > section{
 .footer-description{
     font-size: 1.25rem;
 }
+/* marquee styles */
+.marquee-container{
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #0371a3;
+    font-size: 1.5rem;
+    color: white;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .hide-mbl{
@@ -323,7 +331,7 @@ main > section{
     .banner{
         flex-direction: column-reverse;
     }
-    .card-container{
+    .card-container, .footer-section{
         flex-direction: column;
     }
     .banner-content{
@@ -399,8 +407,61 @@ main > section{
         padding: 8px 30px;
         font-size: 1rem;
     }
+    .footer-section{
+        padding: 20px 10px ;
+        align-items: self-start;
+        text-align: start;
+    }
+    .footer-logo{
+        width: 305px;
+
+    }
+    .footer-menus{
+        align-items: center;
+        margin-top: 8px;
+        padding-left: 25px;
+    }
+    .touch{
+        font-weight: 700;
+        font-size: 1.6rem;
+        margin-top: 5px;
+    }
+    .footer-description{
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+        max-width: 95%;
+        margin: 0 30px;
+
+    }
+    .img-footer{
+        width: 69px;
+        height: 69px;
+    }
+    .Education-footer{
+        justify-content: center;
+        padding-left: 16px;
+    }
+    .footer-title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .about-school{
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+    .touch{
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-left: 25px;
+    }
+    .footer-img{
+        width: 33px;
+        height: 33px;
+        border-radius: 3.39px;
+    }
 }
-@media screen and (min-width: 577px) {
+@media screen and (min-width:577px) {
     .hide-bars{
         display: none;
     }
