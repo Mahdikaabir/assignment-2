@@ -248,6 +248,16 @@ main > section{
     border: none;
     border-radius: 12px;
     font-size: 1.25rem;
+    margin-bottom: 60px;
+}
+
+/* footer styles */
+.bg-footer{
+    background-color: #01ACFD;
+}
+.footer-section{
+    display: flex;
+    height: 519px;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
