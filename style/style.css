@@ -42,6 +42,9 @@ main > section{
     text-align: center;
     margin-bottom: 80px;
 }
+.text-footer{
+    color: white;
+}
 /* header styles */
 /* navbar styles  */
 .navbar{
@@ -253,11 +256,60 @@ main > section{
 
 /* footer styles */
 .bg-footer{
-    background-color: #01ACFD;
+    background-color: #0371a3;
 }
 .footer-section{
     display: flex;
-    height: 519px;
+    width: 1070px;
+    align-items: center;
+    margin-left: 230px;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 123px 228px 174px 140px;
+}
+.footer-logo{
+    width: 400px;
+}
+.img-footer{
+    width: 82px;
+    height: 81px;
+}
+.footer-menus{
+    align-items: center;
+    margin-top: -50px;
+}
+.about-school{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.touch{
+    font-weight: 700;
+    font-size: 1.6rem;
+   margin-top: -100px;
+}
+.footer-menu{
+    list-style: none;
+}
+.decoration{
+    text-decoration: none;
+}
+.footer-img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+.gap{
+    gap: 10px;
+}
+.footer-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.Education-footer{
+    align-items: center;
+}
+.footer-description{
+    font-size: 1.25rem;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
