@@ -91,7 +91,9 @@ main > section{
     padding: 10px 60px;
     font-weight: 600;
 }
-
+.btns:hover{
+    background-color: #01ACFD;
+}
 
 /* banner styles */
 .banner{
@@ -234,9 +236,18 @@ main > section{
 }
 
 .btn-view-all{
+    margin: 0 auto;
+    display: block;
     margin-top: 80px;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    padding: 10px 47px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -294,10 +305,37 @@ main > section{
     .read-more-text{
         font-size: 0.6rem;
     }
+    #date{
+        padding: 6px 12px;
+        position: relative;
+        font-weight: 500;
+        font-size: 0.5rem;
+        color: white;
+        border: none;
+        border-radius: 28px;
+        margin-left: 22px;
+        top: -16px;
+    }
+    .story-titles{
+        font-weight: 700;
+        font-size: 0.6rem;
+        width: 117px;
+        padding-left: 22px;
+    }
     .stories{
+        flex-direction: column;
+        margin: 0 auto;
         gap: 11px;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-story{
+        width: 100%;
+    }
+    .btn-view-all{
+        margin-top: 20px;
+        padding: 8px 30px;
+        font-size: 1rem;
     }
 }
 @media screen and (min-width: 577px) {
